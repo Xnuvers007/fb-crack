@@ -16,11 +16,11 @@ if [ $pilih = "L" ] || [ $pilih = "l" ]; then
     cd ./mechanize1/
     python setup.py install
     cd ..
-    python2 ./main.py
     clear
     echo "========================================"
     echo "Selesai"
     echo "========================================"
+    python2 ./main.py
 elif [ $pilih = "T" ] || [ $pilih = "t" ]; then
     #memberikan warna pada teks
     echo -e "\e[1;31mAnda menggunakan Termux\e[0m"
@@ -39,11 +39,11 @@ elif [ $pilih = "T" ] || [ $pilih = "t" ]; then
     cd ./mechanize1/
     python setup.py install
     cd ..
-    python2 ./main.py
     clear
     echo "========================================"
     echo "Selesai"
     echo "========================================"
+    python2 ./main.py
 else
     echo "Pilihan anda tidak ada"
     echo "Akan keluar dalam 5 detik"
